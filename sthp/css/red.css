@@ -1,0 +1,6 @@
+.box{
+   height: 300px;/*heightは高さの指定です*/
+   width: 300px;/*widthは横幅の指定です*/
+   background-color: red;/*background-colorは背景色の指定です*/
+   margin: 20px auto;
+ }

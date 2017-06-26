@@ -1,0 +1,19 @@
+.container {
+    background-color: #c1ffe0;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.box1 {
+     background-color: #c1ffff;
+}
+
+.box2 {
+    background-color: #ffffc6;
+}

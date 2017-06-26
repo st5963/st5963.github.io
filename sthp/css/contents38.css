@@ -1,0 +1,63 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+
+h1{
+	text-align: center;
+	padding-top: 90px;
+	margin: 0;
+}
+
+.first-text{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.border{
+	border: solid 1px #EC715F;
+	width: 50px; 
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.smallcontainer{
+	padding-left: 170px;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    background-image: url(../img2/my-icon.jpg);
+}
+
+.bigcontainer{
+	float: left;
+	width: 50%;
+}
+
+.bigcontainer:first-child {
+	text-align: center;
+}
+
+.container-heading{
+	text-align: left;
+}
+.container-text {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.container-text2 {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 90px;
+}

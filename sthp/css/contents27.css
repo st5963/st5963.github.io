@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #EC715F;
+    position: fixed;
+}
+nav{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-box{
+    /*margin-left: 50PX;*/
+    float: left;
+    width: 300px;
+}
+.header-icon{
+    /*margin-left: 50PX;*/
+    float: left;
+    width: auto;
+    font-size: 30px;
+}
+.header-mysite{
+    /*margin-left: 50PX;*/
+    float: right;
+    width: 8px;
+    margin-top: 40px;
+}
+.kigou{
+    font-size: 37px;
+    width: 100px;
+}
+.title{
+    font-size: 25px;
+    width: 100px;
+}
+.top-menu{
+    float: right;
+    width: 70%;
+    line-height: 70px;
+}
+.top-menu-item{
+    float: left;
+    width: 120px;
+    list-style: none;
+}
+.top-menu-item a{
+    text-decoration: none;
+    color: white;
+}

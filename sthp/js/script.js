@@ -1,9 +1,0 @@
-$('.gazouwebsuku').hover(function(){
-    $(this).children('.kabuse').stop().fadeToggle();
-});
-$('.gazouwebcamp').hover(function(){
-    $(this).children('.kabuse').stop().fadeToggle();
-});
-$('.gazouwebcamp-mother').hover(function(){
-    $(this).children('.kabuse').stop().fadeToggle();
-});

@@ -1,0 +1,27 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: #f1f1f1 solid 3px;
+    float: left;
+}
+
+.green {
+    background-color: #9effce;
+}
+
+.blue {
+    background-color: #9effff;
+}
+
+.orange {
+    background-color: #ffce9e;
+}
+.rectangle {
+    height: 100px;
+    background-color: #ff9e9e;
+}

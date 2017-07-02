@@ -92,7 +92,7 @@ font-weight: 200;
     color: white;
     height: 60px;
     line-height:60px;
-    border: solid thin #FAFAFA;
+    border-top: solid thin #FAFAFA;
 }
 .list-item a{
     color: white;

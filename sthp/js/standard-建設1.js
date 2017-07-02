@@ -19,13 +19,21 @@ $('.kyujin').hover(function() {
 });
 });
 
+$(function() {
+$('.kyujin').hover(function() {
+    $(this).css('background', '#FFD5EC');
+}, function() {
+    $(this).css('background', '');
+});
+});
+
 $(function(){
 	var start = "touchstart";
 	var end   = "touchend";
 $(".kyujin").bind(start,function(){
-	$(this).addClass("#ffff00");
+	$(this).addClass("touchstart");
 	});
 $(".kyujin").bind(end,function(){
-	$(this).removeClass("#ffff00");
+	$(this).removeClass("touchstart");
 	});
 });

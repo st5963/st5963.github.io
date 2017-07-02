@@ -18,3 +18,14 @@ $('.kyujin').hover(function() {
     $(this).css('background', '');
 });
 });
+
+$(function(){
+	var start = "touchstart";
+	var end   = "touchend";
+$(".kyujin").bind(start,function(){
+	$(this).addClass("#ffff00");
+	});
+$(".kyujin").bind(end,function(){
+	$(this).removeClass("#ffff00");
+	});
+});

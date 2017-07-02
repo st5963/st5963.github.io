@@ -169,6 +169,9 @@ h1{
     color: #EC715F;
     font-size: 15px;
 }
+a.touchstart{
+    background:#EC715F;
+}
 
 .profile-color{
     width: 100%;

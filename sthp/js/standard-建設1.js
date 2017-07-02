@@ -19,14 +19,6 @@ $('.kyujin').hover(function() {
 });
 });
 
-$(function() {
-$('.kyujin').hover(function() {
-    $(this).css('background', '#FFD5EC');
-}, function() {
-    $(this).css('background', '');
-});
-});
-
 $(function(){
 	var start = "touchstart";
 	var end   = "touchend";

@@ -79,7 +79,6 @@ font-weight: 200;
 .humberger{
     display: none;
 }
-
 .list{
     width: 100%;
     display: none;
@@ -159,6 +158,7 @@ h1{
 .fa-search{
     text-align: center;
     padding-right: 20px;
+    padding-left: 30px;
 }
 
 .kyujin{
@@ -516,7 +516,7 @@ h1{
     }
     .sns{
         float: left!important;
-        padding-left: 12px;
+        padding-left: 9px;
     }
     .smallcontainer{
     padding-left: 0px;
@@ -560,7 +560,7 @@ h1{
         float: right;
         height: 60px;
         line-height: 60px;
-        font-size: 50px;
+        font-size: 25px;
     }    
 
 }
@@ -635,7 +635,7 @@ h1{
     }
     .sns{
         float: left!important;
-        padding-left: 12px;
+        padding-left: 9px;
     }
     .contact-text{
     display: block;
@@ -672,7 +672,7 @@ h1{
         float: right;
         height: 60px;
         line-height: 60px;
-        font-size: 50px;
+        font-size: 25px;
     }    
 
 }
@@ -749,7 +749,7 @@ h1{
     }
     .sns{
         float: left!important;
-        padding-left: 12px;
+        padding-left: 9px;
     }
 
     .smallcontainer{
@@ -784,7 +784,7 @@ h1{
         float: right;
         height: 60px;
         line-height: 60px;
-        font-size: 50px;
+        font-size: 25px;
     }    
 
 }

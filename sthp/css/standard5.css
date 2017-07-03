@@ -156,7 +156,7 @@ h1{
 .fa-user{
     text-align: center;
 }
-.fa-handshake-o{
+.fa-search{
     text-align: center;
     padding-right: 20px;
 }
@@ -222,10 +222,10 @@ h1{
 }
 
 }
-* {
+/** {
     margin: 0 auto;
     padding: 0;
-}
+}*/
 
 .clearfix::after {
     content: "";
@@ -361,6 +361,10 @@ h1{
     margin: 0;
 }
 
+.contact-text{
+    display: none;
+}
+
 .first-text{
     text-align: center;
     padding-top: 30px;
@@ -431,7 +435,37 @@ h1{
     margin-top: -10px;
 }
 
-@media (max-width: 768px){
+@media (min-width: 1142px) and (max-width: 1342px){
+    .container {
+    width: 31%;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1141px){
+    .container {
+        width: 30%;
+    }
+    .fa-address-card{
+        padding-left: 50px;
+    }
+    .fa-facebook-official{
+        padding-left: 50px;
+    }
+    .smallcontainer-first {
+    padding-left: 289px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1155px){
+    nav {
+    width: 104%;
+    }
+    .container-text1 {
+    width: 458px;
+    }
+}
+
+@media (max-width: 999px){
     /*.several{
         width: 90%;
         margin: 0 auto;
@@ -466,7 +500,7 @@ h1{
     .gazouwebcamp-mother{
         float: none;
     }*/
-    .fa-handshake-o{
+    .fa-search{
         padding-top: 40px;
     }
     .fa-laptop{
@@ -531,7 +565,7 @@ h1{
 
 }
 
-@media (max-width: 375px){
+@media (max-width: 626px){
     .image1{
         padding-right: 5px;
     }
@@ -562,7 +596,7 @@ h1{
     .container{
         width: 100%;
     }
-    .fa-handshake-o{
+    .fa-search{
         padding-top: 40px;
     }
     .fa-laptop{
@@ -603,6 +637,121 @@ h1{
         float: left!important;
         padding-left: 12px;
     }
+    .contact-text{
+    display: block;
+    }
+    .smallcontainer{
+    padding-left: 0px;
+    padding-bottom: 30px;
+    }
+    .container-text {
+    padding-bottom: 20px;
+    }
+    .smallcontainer-first {
+    padding-left: 0px;
+    }
+    .container-icons {
+    height: 90px;
+    margin: 0 auto;
+    width: 153px;
+    padding-top: 15px;
+    }
+    .container-heading-right {
+    text-align: center;
+    padding-bottom: 0px;
+    }   
+    .container-text2 {
+    padding-bottom: 40px;
+    padding-top: 0px;
+    }
+    .top-menu{
+        display: none;
+    }
+    .humberger{
+        display: block;
+        float: right;
+        height: 60px;
+        line-height: 60px;
+        font-size: 50px;
+    }    
+
+}
+
+@media (max-width: 342px){
+    .image1{
+        padding-right: 5px;
+        padding-left: 25px; 
+    }
+    .back{
+    width: 100%;
+    height: 459px;
+    font-size:50px;
+    color:#FAFAFA;
+    margin: 0 auto;
+    padding-top: 100px;
+    color: #666666;
+    background-image: url(../img2/書き出し２.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: 38% 50%; 
+     }
+     .lorem{
+        font-size: 21px;
+
+     }
+     .simply{
+        font-size: 14px;
+     }
+
+     .service-color {
+        height: 1300px;
+    }
+    .container{
+        width: 100%;
+    }
+    .fa-search{
+        padding-top: 40px;
+    }
+    .fa-laptop{
+        padding-top: 40px;
+    }
+    .profile-color{
+        padding-bottom: 160px;
+        height: 950px;
+    }
+    .container-text1{
+        width: 80%;
+        margin: 10px 10%; 
+        /*text-align: center;*/
+        font-size: 90%;
+    }
+    /*.container-text-content{
+        width: 80%;
+        margin: 10px 10%; 
+        font-size: 90%;
+    }*/
+    .yaku{
+        /*padding-left: 23px;*/
+    }
+    .company-color{
+        height: 899px;
+        padding-bottom: 180px;
+    }
+    .companydata {
+        width: 88%;
+    }
+    th{
+        padding-left: 0px;
+        width: 100px;
+    }
+    td{
+        padding-right: 0%;
+    }
+    .sns{
+        float: left!important;
+        padding-left: 12px;
+    }
+
     .smallcontainer{
     padding-left: 0px;
     padding-bottom: 30px;
